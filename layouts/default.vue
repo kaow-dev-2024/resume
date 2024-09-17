@@ -61,11 +61,6 @@ export default {
           title: 'Work Experience',
           to: '/work-experience'
         },
-        {
-          icon: 'mdi-account-details',
-          title: 'Skills',
-          to: '/skills'
-        },
 
       ],
 

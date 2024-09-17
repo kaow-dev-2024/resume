@@ -2,8 +2,8 @@ import colors from "vuetify/es5/util/colors";
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  target: "static",
-  ssr: false,
+  // target: "static",
+  // ssr: false,
 
   head: {
     titleTemplate: "%s - resume",
@@ -75,7 +75,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
-  server: {
-    host: "0.0.0.0",
-  },
+  // server: {
+  //   host: "0.0.0.0",
+  // },
 };

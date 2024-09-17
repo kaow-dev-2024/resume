@@ -3,7 +3,7 @@
         <v-timeline dense>
             <v-timeline-item v-for="(item, i) in items" :key="i" color="success">
                 <v-card>
-                    <v-toolbar elevation="0" color="warning" dark>
+                    <v-toolbar elevation="0" color="primary" dark>
                         {{ item.start }}-{{ item.end }}
                     </v-toolbar>
                     <v-divider></v-divider>
