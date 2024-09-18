@@ -12,7 +12,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar :clipped-left="clipped" fixed app dense elevation="0">
+    <v-app-bar :clipped-left="clipped"  dense fixed app >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-spacer></v-spacer>
       <div>
@@ -60,6 +60,11 @@ export default {
           icon: 'mdi-account-hard-hat',
           title: 'Work Experience',
           to: '/work-experience'
+        },
+        {
+          icon: 'mdi-account-details',
+          title: 'Skills',
+          to: '/skills'
         },
 
       ],

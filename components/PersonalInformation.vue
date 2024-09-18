@@ -23,10 +23,10 @@
                         <v-list-item two-line>
                             <v-list-item-content>
                                 <v-list-item-title>
-                                    ที่อยู่
+                                    Address
                                 </v-list-item-title>
                                 <v-list-item-subtitle>
-                                    xxxxxxxxxxxxxxxxx
+                                    119 Village No. 5, Sawai Subdistrict, Mueang District, Surin Province 32000
                                 </v-list-item-subtitle>
                             </v-list-item-content>
                         </v-list-item>
@@ -34,24 +34,35 @@
                         <v-list-item two-line>
                             <v-list-item-content>
                                 <v-list-item-title>
-                                    เบอร์
+                                    Phone
                                 </v-list-item-title>
                                 <v-list-item-subtitle>
-                                    xxxxxxxxxxxxxxxxx
+                                    098-7994709
+                                </v-list-item-subtitle>
+                            </v-list-item-content>
+                        </v-list-item>
+                        <v-list-item two-line>
+                            <v-list-item-content>
+                                <v-list-item-title>
+                                    Line
+                                </v-list-item-title>
+                                <v-list-item-subtitle>
+                                    Jajetsada
+                                </v-list-item-subtitle>
+                            </v-list-item-content>
+                        </v-list-item>
+                        <v-list-item two-line>
+                            <v-list-item-content>
+                                <v-list-item-title>
+                                    Email
+                                </v-list-item-title>
+                                <v-list-item-subtitle>
+                                    JaporJetsada@gmail.com
                                 </v-list-item-subtitle>
                             </v-list-item-content>
                         </v-list-item>
 
-                        <v-list-item two-line>
-                            <v-list-item-content>
-                                <v-list-item-title>
-                                    Name
-                                </v-list-item-title>
-                                <v-list-item-subtitle>
-                                    xxxxxxxxxxxxxxxxx
-                                </v-list-item-subtitle>
-                            </v-list-item-content>
-                        </v-list-item>
+                    
                     </v-col>
                 </v-row>
             </v-card-text>
