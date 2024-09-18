@@ -3,9 +3,19 @@
         <v-timeline dense>
             <v-timeline-item v-for="(item, i) in items" :key="i" color="success">
                 <v-card>
-                    <v-card-title >
-                        {{ item.en }} {{ item.th }}
-                    </v-card-title>
+                    <v-card-text >
+                      <v-list-item two-line>
+                            <v-list-item-content>
+                                <v-list-item-title>
+                                    {{item.en}}
+                                </v-list-item-title>
+                                <v-list-item-subtitle>
+                                    {{item.th}}
+                                </v-list-item-subtitle>
+                            </v-list-item-content>
+                        </v-list-item>
+
+                    </v-card-text>
 
                 </v-card>
 
