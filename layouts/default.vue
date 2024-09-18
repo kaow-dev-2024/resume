@@ -12,7 +12,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar :clipped-left="clipped"  dense fixed app >
+    <v-app-bar :clipped-left="clipped"  dense fixed app color="primary" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-spacer></v-spacer>
       <div>

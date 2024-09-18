@@ -1,21 +1,12 @@
 <template>
     <div>
         <h1>Skills</h1>
-        <ul>
-            <li>
-                Lathe
-            </li>
-            <li>
-                Milling Machine
-            </li>
-            <li>
-                Nat Pump Machine
-            </li>
-          </ul>  
+        <Skills />
     </div>
 </template>
 
 <script>
+import Skills from '~/components/Skills.vue';
 export default {
 
 }
