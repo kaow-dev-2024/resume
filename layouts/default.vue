@@ -12,14 +12,15 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar :clipped-left="clipped"  dense fixed app color="primary" dark>
+    <v-app-bar :clipped-left="clipped"   fixed app color="primary" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-spacer></v-spacer>
+      Portfolio
       <div>
         <v-list-item two-line>
           <v-list-item-content>
             <v-list-item-title>
-              JA
+              Ja
             </v-list-item-title>
             <v-list-item-subtitle>
               Jajetsata Thongklieng
