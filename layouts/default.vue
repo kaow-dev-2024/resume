@@ -14,8 +14,10 @@
     </v-navigation-drawer>
     <v-app-bar :clipped-left="clipped"   fixed app color="primary" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <h1 class="ml-2">
+        PORTFOLIO
+      </h1>
       <v-spacer></v-spacer>
-      Portfolio
       <div>
         <v-list-item two-line>
           <v-list-item-content>
